@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		43BE8532290E044C00E48AC6 /* Classroom_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8531290E044C00E48AC6 /* Classroom_App.swift */; };
-		43BE8534290E044C00E48AC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8533290E044C00E48AC6 /* ContentView.swift */; };
 		43BE8536290E044C00E48AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BE8535290E044C00E48AC6 /* Assets.xcassets */; };
 		43BE8539290E044C00E48AC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BE8538290E044C00E48AC6 /* Preview Assets.xcassets */; };
-		43BE853B290E044C00E48AC6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE853A290E044C00E48AC6 /* Persistence.swift */; };
-		43BE853E290E044C00E48AC6 /* Classroom_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43BE853C290E044C00E48AC6 /* Classroom_.xcdatamodeld */; };
+		43BE8547290E045C00E48AC6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BE8546290E045C00E48AC6 /* CloudKit.framework */; };
+		43BE855D290E04B800E48AC6 /* AssignDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8550290E04B700E48AC6 /* AssignDetailView.swift */; };
+		43BE855E290E04B800E48AC6 /* NewAssignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8551290E04B700E48AC6 /* NewAssignView.swift */; };
+		43BE855F290E04B800E48AC6 /* Images+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8553290E04B700E48AC6 /* Images+Views.swift */; };
+		43BE8560290E04B800E48AC6 /* Reminders+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8554290E04B700E48AC6 /* Reminders+Views.swift */; };
+		43BE8561290E04B800E48AC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8555290E04B700E48AC6 /* ContentView.swift */; };
+		43BE856E290E04E100E48AC6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8566290E04E000E48AC6 /* ImagePicker.swift */; };
+		43BE856F290E04E100E48AC6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8568290E04E100E48AC6 /* Persistence.swift */; };
+		43BE8570290E04E100E48AC6 /* ClassroomA_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8569290E04E100E48AC6 /* ClassroomA_.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		43BE852E290E044C00E48AC6 /* Classroom+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classroom+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BE8531290E044C00E48AC6 /* Classroom_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classroom_App.swift; sourceTree = "<group>"; };
-		43BE8533290E044C00E48AC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43BE8535290E044C00E48AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43BE8538290E044C00E48AC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		43BE853A290E044C00E48AC6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		43BE853D290E044C00E48AC6 /* Classroom_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Classroom_.xcdatamodel; sourceTree = "<group>"; };
 		43BE853F290E044C00E48AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43BE8546290E045C00E48AC6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		43BE8550290E04B700E48AC6 /* AssignDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignDetailView.swift; sourceTree = "<group>"; };
+		43BE8551290E04B700E48AC6 /* NewAssignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAssignView.swift; sourceTree = "<group>"; };
+		43BE8553290E04B700E48AC6 /* Images+Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+Views.swift"; sourceTree = "<group>"; };
+		43BE8554290E04B700E48AC6 /* Reminders+Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reminders+Views.swift"; sourceTree = "<group>"; };
+		43BE8555290E04B700E48AC6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43BE8566290E04E000E48AC6 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		43BE8568290E04E100E48AC6 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		43BE856A290E04E100E48AC6 /* ClassroomA_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClassroomA_.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BE8547290E045C00E48AC6 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,7 @@
 			children = (
 				43BE8530290E044C00E48AC6 /* Classroom+ */,
 				43BE852F290E044C00E48AC6 /* Products */,
+				43BE8545290E045C00E48AC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				43BE8531290E044C00E48AC6 /* Classroom_App.swift */,
-				43BE8533290E044C00E48AC6 /* ContentView.swift */,
 				43BE8535290E044C00E48AC6 /* Assets.xcassets */,
-				43BE853A290E044C00E48AC6 /* Persistence.swift */,
+				43BE854F290E04B700E48AC6 /* Views */,
 				43BE853F290E044C00E48AC6 /* Info.plist */,
-				43BE853C290E044C00E48AC6 /* Classroom_.xcdatamodeld */,
 				43BE8537290E044C00E48AC6 /* Preview Content */,
 			);
 			path = "Classroom+";
@@ -73,6 +85,56 @@
 				43BE8538290E044C00E48AC6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43BE8545290E045C00E48AC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43BE8546290E045C00E48AC6 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43BE854F290E04B700E48AC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43BE8550290E04B700E48AC6 /* AssignDetailView.swift */,
+				43BE8551290E04B700E48AC6 /* NewAssignView.swift */,
+				43BE8552290E04B700E48AC6 /* Relationships */,
+				43BE8555290E04B700E48AC6 /* ContentView.swift */,
+				43BE8567290E04E100E48AC6 /* Data Persistence */,
+				43BE8565290E04E000E48AC6 /* Utilities */,
+			);
+			name = Views;
+			path = "../../ClassroomA+/ClassroomA+/Views";
+			sourceTree = "<group>";
+		};
+		43BE8552290E04B700E48AC6 /* Relationships */ = {
+			isa = PBXGroup;
+			children = (
+				43BE8553290E04B700E48AC6 /* Images+Views.swift */,
+				43BE8554290E04B700E48AC6 /* Reminders+Views.swift */,
+			);
+			path = Relationships;
+			sourceTree = "<group>";
+		};
+		43BE8565290E04E000E48AC6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				43BE8566290E04E000E48AC6 /* ImagePicker.swift */,
+			);
+			name = Utilities;
+			path = ../Utilities;
+			sourceTree = "<group>";
+		};
+		43BE8567290E04E100E48AC6 /* Data Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				43BE8568290E04E100E48AC6 /* Persistence.swift */,
+				43BE8569290E04E100E48AC6 /* ClassroomA_.xcdatamodeld */,
+			);
+			name = "Data Persistence";
+			path = "../Data Persistence";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43BE853B290E044C00E48AC6 /* Persistence.swift in Sources */,
-				43BE853E290E044C00E48AC6 /* Classroom_.xcdatamodeld in Sources */,
-				43BE8534290E044C00E48AC6 /* ContentView.swift in Sources */,
+				43BE855E290E04B800E48AC6 /* NewAssignView.swift in Sources */,
+				43BE855D290E04B800E48AC6 /* AssignDetailView.swift in Sources */,
+				43BE856E290E04E100E48AC6 /* ImagePicker.swift in Sources */,
+				43BE8560290E04B800E48AC6 /* Reminders+Views.swift in Sources */,
 				43BE8532290E044C00E48AC6 /* Classroom_App.swift in Sources */,
+				43BE8561290E04B800E48AC6 /* ContentView.swift in Sources */,
+				43BE855F290E04B800E48AC6 /* Images+Views.swift in Sources */,
+				43BE8570290E04E100E48AC6 /* ClassroomA_.xcdatamodeld in Sources */,
+				43BE856F290E04E100E48AC6 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,13 +418,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		43BE853C290E044C00E48AC6 /* Classroom_.xcdatamodeld */ = {
+		43BE8569290E04E100E48AC6 /* ClassroomA_.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				43BE853D290E044C00E48AC6 /* Classroom_.xcdatamodel */,
+				43BE856A290E04E100E48AC6 /* ClassroomA_.xcdatamodel */,
 			);
-			currentVersion = 43BE853D290E044C00E48AC6 /* Classroom_.xcdatamodel */;
-			path = Classroom_.xcdatamodeld;
+			currentVersion = 43BE856A290E04E100E48AC6 /* ClassroomA_.xcdatamodel */;
+			path = ClassroomA_.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
