@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		43369B8D290F470B0087176D /* Classroom+.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Classroom+.entitlements"; sourceTree = "<group>"; };
 		43369B8E290F47100087176D /* Classroom--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Classroom--Info.plist"; sourceTree = SOURCE_ROOT; };
-		43BE852E290E044C00E48AC6 /* Classroom+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classroom+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BE852E290E044C00E48AC6 /* SimpleClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BE8531290E044C00E48AC6 /* Classroom_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classroom_App.swift; sourceTree = "<group>"; };
 		43BE8535290E044C00E48AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43BE8538290E044C00E48AC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		43BE852F290E044C00E48AC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43BE852E290E044C00E48AC6 /* Classroom+.app */,
+				43BE852E290E044C00E48AC6 /* SimpleClass.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43BE852D290E044C00E48AC6 /* Classroom+ */ = {
+		43BE852D290E044C00E48AC6 /* SimpleClass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43BE8542290E044C00E48AC6 /* Build configuration list for PBXNativeTarget "Classroom+" */;
+			buildConfigurationList = 43BE8542290E044C00E48AC6 /* Build configuration list for PBXNativeTarget "SimpleClass" */;
 			buildPhases = (
 				43BE852A290E044C00E48AC6 /* Sources */,
 				43BE852B290E044C00E48AC6 /* Frameworks */,
@@ -164,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = "Classroom+";
+			name = SimpleClass;
 			productName = "Classroom+";
-			productReference = 43BE852E290E044C00E48AC6 /* Classroom+.app */;
+			productReference = 43BE852E290E044C00E48AC6 /* SimpleClass.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -184,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43BE8529290E044C00E48AC6 /* Build configuration list for PBXProject "Classroom+" */;
+			buildConfigurationList = 43BE8529290E044C00E48AC6 /* Build configuration list for PBXProject "SimpleClass" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -197,7 +197,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43BE852D290E044C00E48AC6 /* Classroom+ */,
+				43BE852D290E044C00E48AC6 /* SimpleClass */,
 			);
 		};
 /* End PBXProject section */
@@ -415,7 +415,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43BE8529290E044C00E48AC6 /* Build configuration list for PBXProject "Classroom+" */ = {
+		43BE8529290E044C00E48AC6 /* Build configuration list for PBXProject "SimpleClass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43BE8540290E044C00E48AC6 /* Debug */,
@@ -424,7 +424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43BE8542290E044C00E48AC6 /* Build configuration list for PBXNativeTarget "Classroom+" */ = {
+		43BE8542290E044C00E48AC6 /* Build configuration list for PBXNativeTarget "SimpleClass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43BE8543290E044C00E48AC6 /* Debug */,
