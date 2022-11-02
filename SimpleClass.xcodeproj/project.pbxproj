@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		439A89EF2911FB8300371CC6 /* CourseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A89EE2911FB8300371CC6 /* CourseContentView.swift */; };
+		439A89F12911FEF600371CC6 /* NewCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A89F02911FEF600371CC6 /* NewCourseView.swift */; };
+		439A89F32911FF5300371CC6 /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A89F22911FF5300371CC6 /* EventSymbols.swift */; };
 		43BE8532290E044C00E48AC6 /* Classroom_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8531290E044C00E48AC6 /* Classroom_App.swift */; };
 		43BE8536290E044C00E48AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BE8535290E044C00E48AC6 /* Assets.xcassets */; };
 		43BE8539290E044C00E48AC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BE8538290E044C00E48AC6 /* Preview Assets.xcassets */; };
@@ -15,7 +18,7 @@
 		43BE855E290E04B800E48AC6 /* NewAssignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8551290E04B700E48AC6 /* NewAssignView.swift */; };
 		43BE855F290E04B800E48AC6 /* Images+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8553290E04B700E48AC6 /* Images+Views.swift */; };
 		43BE8560290E04B800E48AC6 /* Reminders+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8554290E04B700E48AC6 /* Reminders+Views.swift */; };
-		43BE8561290E04B800E48AC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8555290E04B700E48AC6 /* ContentView.swift */; };
+		43BE8561290E04B800E48AC6 /* AssignContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8555290E04B700E48AC6 /* AssignContentView.swift */; };
 		43BE856E290E04E100E48AC6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8566290E04E000E48AC6 /* ImagePicker.swift */; };
 		43BE856F290E04E100E48AC6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8568290E04E100E48AC6 /* Persistence.swift */; };
 		43BE8570290E04E100E48AC6 /* ClassroomA_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8569290E04E100E48AC6 /* ClassroomA_.xcdatamodeld */; };
@@ -24,6 +27,9 @@
 /* Begin PBXFileReference section */
 		43369B8D290F470B0087176D /* Classroom+.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Classroom+.entitlements"; sourceTree = "<group>"; };
 		43369B8E290F47100087176D /* Classroom--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Classroom--Info.plist"; sourceTree = SOURCE_ROOT; };
+		439A89EE2911FB8300371CC6 /* CourseContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseContentView.swift; sourceTree = "<group>"; };
+		439A89F02911FEF600371CC6 /* NewCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCourseView.swift; sourceTree = "<group>"; };
+		439A89F22911FF5300371CC6 /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
 		43BE852E290E044C00E48AC6 /* SimpleClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BE8531290E044C00E48AC6 /* Classroom_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classroom_App.swift; sourceTree = "<group>"; };
 		43BE8535290E044C00E48AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,7 +40,7 @@
 		43BE8551290E04B700E48AC6 /* NewAssignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAssignView.swift; sourceTree = "<group>"; };
 		43BE8553290E04B700E48AC6 /* Images+Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Images+Views.swift"; sourceTree = "<group>"; };
 		43BE8554290E04B700E48AC6 /* Reminders+Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reminders+Views.swift"; sourceTree = "<group>"; };
-		43BE8555290E04B700E48AC6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43BE8555290E04B700E48AC6 /* AssignContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignContentView.swift; sourceTree = "<group>"; };
 		43BE8566290E04E000E48AC6 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		43BE8568290E04E100E48AC6 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		43BE856A290E04E100E48AC6 /* ClassroomA_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClassroomA_.xcdatamodel; sourceTree = "<group>"; };
@@ -124,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				43BE8566290E04E000E48AC6 /* ImagePicker.swift */,
+				439A89F22911FF5300371CC6 /* EventSymbols.swift */,
 			);
 			name = Utilities;
 			path = ../Utilities;
@@ -143,7 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				43BE8550290E04B700E48AC6 /* AssignDetailView.swift */,
-				43BE8555290E04B700E48AC6 /* ContentView.swift */,
+				439A89EE2911FB8300371CC6 /* CourseContentView.swift */,
+				439A89F02911FEF600371CC6 /* NewCourseView.swift */,
+				43BE8555290E04B700E48AC6 /* AssignContentView.swift */,
 				43BE8551290E04B700E48AC6 /* NewAssignView.swift */,
 			);
 			path = Views;
@@ -222,9 +231,12 @@
 				43BE855E290E04B800E48AC6 /* NewAssignView.swift in Sources */,
 				43BE855D290E04B800E48AC6 /* AssignDetailView.swift in Sources */,
 				43BE856E290E04E100E48AC6 /* ImagePicker.swift in Sources */,
+				439A89EF2911FB8300371CC6 /* CourseContentView.swift in Sources */,
 				43BE8560290E04B800E48AC6 /* Reminders+Views.swift in Sources */,
+				439A89F12911FEF600371CC6 /* NewCourseView.swift in Sources */,
 				43BE8532290E044C00E48AC6 /* Classroom_App.swift in Sources */,
-				43BE8561290E04B800E48AC6 /* ContentView.swift in Sources */,
+				43BE8561290E04B800E48AC6 /* AssignContentView.swift in Sources */,
+				439A89F32911FF5300371CC6 /* EventSymbols.swift in Sources */,
 				43BE855F290E04B800E48AC6 /* Images+Views.swift in Sources */,
 				43BE8570290E04E100E48AC6 /* ClassroomA_.xcdatamodeld in Sources */,
 				43BE856F290E04E100E48AC6 /* Persistence.swift in Sources */,
