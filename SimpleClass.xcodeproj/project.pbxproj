@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434ABE08291215630037F69C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABDF9291215630037F69C /* Date.swift */; };
+		434ABE09291215630037F69C /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABDFA291215630037F69C /* PhoneNumber.swift */; };
+		434ABE0A291215630037F69C /* AnalysisResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABDFB291215630037F69C /* AnalysisResult.swift */; };
+		434ABE0B291215630037F69C /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABDFC291215630037F69C /* ResultType.swift */; };
+		434ABE0C291215630037F69C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABDFD291215630037F69C /* Address.swift */; };
+		434ABE0D291215630037F69C /* MultiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABDFE291215630037F69C /* MultiData.swift */; };
+		434ABE0E291215630037F69C /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABDFF291215630037F69C /* Link.swift */; };
+		434ABE0F291215630037F69C /* TransitInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABE00291215630037F69C /* TransitInformation.swift */; };
+		434ABE10291215630037F69C /* MKDataDetectorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABE01291215630037F69C /* MKDataDetectorService.swift */; };
+		434ABE11291215630037F69C /* CoreKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABE02291215630037F69C /* CoreKeys.swift */; };
+		434ABE13291215630037F69C /* AliasManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABE05291215630037F69C /* AliasManager.swift */; };
+		434ABE14291215630037F69C /* StringAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABE06291215630037F69C /* StringAccess.swift */; };
+		434ABE15291215630037F69C /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434ABE07291215630037F69C /* UtilityExtensions.swift */; };
 		439A89EF2911FB8300371CC6 /* CourseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A89EE2911FB8300371CC6 /* CourseContentView.swift */; };
 		439A89F12911FEF600371CC6 /* NewCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A89F02911FEF600371CC6 /* NewCourseView.swift */; };
 		439A89F32911FF5300371CC6 /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A89F22911FF5300371CC6 /* EventSymbols.swift */; };
@@ -27,6 +40,20 @@
 /* Begin PBXFileReference section */
 		43369B8D290F470B0087176D /* Classroom+.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Classroom+.entitlements"; sourceTree = "<group>"; };
 		43369B8E290F47100087176D /* Classroom--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Classroom--Info.plist"; sourceTree = SOURCE_ROOT; };
+		434ABDF9291215630037F69C /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		434ABDFA291215630037F69C /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		434ABDFB291215630037F69C /* AnalysisResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalysisResult.swift; sourceTree = "<group>"; };
+		434ABDFC291215630037F69C /* ResultType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		434ABDFD291215630037F69C /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		434ABDFE291215630037F69C /* MultiData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiData.swift; sourceTree = "<group>"; };
+		434ABDFF291215630037F69C /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		434ABE00291215630037F69C /* TransitInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitInformation.swift; sourceTree = "<group>"; };
+		434ABE01291215630037F69C /* MKDataDetectorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKDataDetectorService.swift; sourceTree = "<group>"; };
+		434ABE02291215630037F69C /* CoreKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreKeys.swift; sourceTree = "<group>"; };
+		434ABE03291215630037F69C /* MKDataDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKDataDetector.h; sourceTree = "<group>"; };
+		434ABE05291215630037F69C /* AliasManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliasManager.swift; sourceTree = "<group>"; };
+		434ABE06291215630037F69C /* StringAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringAccess.swift; sourceTree = "<group>"; };
+		434ABE07291215630037F69C /* UtilityExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
 		439A89EE2911FB8300371CC6 /* CourseContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseContentView.swift; sourceTree = "<group>"; };
 		439A89F02911FEF600371CC6 /* NewCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCourseView.swift; sourceTree = "<group>"; };
 		439A89F22911FF5300371CC6 /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
@@ -58,6 +85,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		434ABDF8291215630037F69C /* MKDataDetector */ = {
+			isa = PBXGroup;
+			children = (
+				434ABDF9291215630037F69C /* Date.swift */,
+				434ABDFA291215630037F69C /* PhoneNumber.swift */,
+				434ABDFB291215630037F69C /* AnalysisResult.swift */,
+				434ABDFC291215630037F69C /* ResultType.swift */,
+				434ABDFD291215630037F69C /* Address.swift */,
+				434ABDFE291215630037F69C /* MultiData.swift */,
+				434ABDFF291215630037F69C /* Link.swift */,
+				434ABE00291215630037F69C /* TransitInformation.swift */,
+				434ABE01291215630037F69C /* MKDataDetectorService.swift */,
+				434ABE02291215630037F69C /* CoreKeys.swift */,
+				434ABE03291215630037F69C /* MKDataDetector.h */,
+				434ABE05291215630037F69C /* AliasManager.swift */,
+				434ABE06291215630037F69C /* StringAccess.swift */,
+				434ABE07291215630037F69C /* UtilityExtensions.swift */,
+			);
+			name = MKDataDetector;
+			path = "../../../../Downloads/mkdatadetector-master/MKDataDetector";
+			sourceTree = "<group>";
+		};
 		43BE8525290E044C00E48AC6 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +129,7 @@
 			children = (
 				43369B8E290F47100087176D /* Classroom--Info.plist */,
 				43369B8D290F470B0087176D /* Classroom+.entitlements */,
+				434ABDF8291215630037F69C /* MKDataDetector */,
 				43BE8531290E044C00E48AC6 /* Classroom_App.swift */,
 				43BE854F290E04B700E48AC6 /* App Functions */,
 				43BE8535290E044C00E48AC6 /* Assets.xcassets */,
@@ -202,6 +252,8 @@
 				Base,
 			);
 			mainGroup = 43BE8525290E044C00E48AC6;
+			packageReferences = (
+			);
 			productRefGroup = 43BE852F290E044C00E48AC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -229,16 +281,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				43BE855E290E04B800E48AC6 /* NewAssignView.swift in Sources */,
+				434ABE0D291215630037F69C /* MultiData.swift in Sources */,
+				434ABE09291215630037F69C /* PhoneNumber.swift in Sources */,
 				43BE855D290E04B800E48AC6 /* AssignDetailView.swift in Sources */,
 				43BE856E290E04E100E48AC6 /* ImagePicker.swift in Sources */,
 				439A89EF2911FB8300371CC6 /* CourseContentView.swift in Sources */,
+				434ABE14291215630037F69C /* StringAccess.swift in Sources */,
+				434ABE0F291215630037F69C /* TransitInformation.swift in Sources */,
 				43BE8560290E04B800E48AC6 /* Reminders+Views.swift in Sources */,
+				434ABE11291215630037F69C /* CoreKeys.swift in Sources */,
 				439A89F12911FEF600371CC6 /* NewCourseView.swift in Sources */,
 				43BE8532290E044C00E48AC6 /* Classroom_App.swift in Sources */,
 				43BE8561290E04B800E48AC6 /* AssignContentView.swift in Sources */,
 				439A89F32911FF5300371CC6 /* EventSymbols.swift in Sources */,
+				434ABE0A291215630037F69C /* AnalysisResult.swift in Sources */,
 				43BE855F290E04B800E48AC6 /* Images+Views.swift in Sources */,
+				434ABE0C291215630037F69C /* Address.swift in Sources */,
+				434ABE0B291215630037F69C /* ResultType.swift in Sources */,
+				434ABE15291215630037F69C /* UtilityExtensions.swift in Sources */,
+				434ABE10291215630037F69C /* MKDataDetectorService.swift in Sources */,
+				434ABE13291215630037F69C /* AliasManager.swift in Sources */,
+				434ABE0E291215630037F69C /* Link.swift in Sources */,
 				43BE8570290E04E100E48AC6 /* ClassroomA_.xcdatamodeld in Sources */,
+				434ABE08291215630037F69C /* Date.swift in Sources */,
 				43BE856F290E04E100E48AC6 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
