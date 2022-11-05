@@ -36,6 +36,8 @@
 		43BE856F290E04E100E48AC6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8568290E04E100E48AC6 /* Persistence.swift */; };
 		43BE8570290E04E100E48AC6 /* ClassroomA_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43BE8569290E04E100E48AC6 /* ClassroomA_.xcdatamodeld */; };
 		43F525AF2915EB5F00689292 /* Saver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F525AE2915EB5F00689292 /* Saver.swift */; };
+		43F525B32915F53700689292 /* FloatingTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F525B22915F53700689292 /* FloatingTextFieldView.swift */; };
+		43F525B52915FF2A00689292 /* Assign+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F525B42915FF2A00689292 /* Assign+Views.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		43BE8568290E04E100E48AC6 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		43BE856A290E04E100E48AC6 /* ClassroomA_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClassroomA_.xcdatamodel; sourceTree = "<group>"; };
 		43F525AE2915EB5F00689292 /* Saver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saver.swift; sourceTree = "<group>"; };
+		43F525B22915F53700689292 /* FloatingTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextFieldView.swift; sourceTree = "<group>"; };
+		43F525B42915FF2A00689292 /* Assign+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assign+Views.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,7 @@
 		43BE8552290E04B700E48AC6 /* Relationships */ = {
 			isa = PBXGroup;
 			children = (
+				43F525B42915FF2A00689292 /* Assign+Views.swift */,
 				43BE8553290E04B700E48AC6 /* Images+Views.swift */,
 				43BE8554290E04B700E48AC6 /* Reminders+Views.swift */,
 			);
@@ -183,6 +188,7 @@
 			children = (
 				43BE8566290E04E000E48AC6 /* ImagePicker.swift */,
 				439A89F22911FF5300371CC6 /* EventSymbols.swift */,
+				43F525B22915F53700689292 /* FloatingTextFieldView.swift */,
 			);
 			name = Utilities;
 			path = ../Utilities;
@@ -289,6 +295,7 @@
 				43BE855D290E04B800E48AC6 /* AssignDetailView.swift in Sources */,
 				43BE856E290E04E100E48AC6 /* ImagePicker.swift in Sources */,
 				439A89EF2911FB8300371CC6 /* CourseContentView.swift in Sources */,
+				43F525B32915F53700689292 /* FloatingTextFieldView.swift in Sources */,
 				434ABE14291215630037F69C /* StringAccess.swift in Sources */,
 				434ABE0F291215630037F69C /* TransitInformation.swift in Sources */,
 				43BE8560290E04B800E48AC6 /* Reminders+Views.swift in Sources */,
@@ -305,6 +312,7 @@
 				434ABE10291215630037F69C /* MKDataDetectorService.swift in Sources */,
 				434ABE13291215630037F69C /* AliasManager.swift in Sources */,
 				434ABE0E291215630037F69C /* Link.swift in Sources */,
+				43F525B52915FF2A00689292 /* Assign+Views.swift in Sources */,
 				43BE8570290E04E100E48AC6 /* ClassroomA_.xcdatamodeld in Sources */,
 				434ABE08291215630037F69C /* Date.swift in Sources */,
 				43BE856F290E04E100E48AC6 /* Persistence.swift in Sources */,
